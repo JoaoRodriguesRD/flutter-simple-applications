@@ -31,6 +31,8 @@ class _MyHomePageState extends State<MyHomePage> {
   String _userInputs = "your first input";
   bool _isChecked = true;
   bool _isCheckedSwitch = true;
+  double _sliderValue = 0;
+  
 
   void _stringCounter(String userInput) {
     setState(() {
@@ -59,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
             myTextFieldNumber(),
             myCheckbox(),
             mySwitchList(),
+            mySlider(),
           ],
         ),
       ),
@@ -133,4 +136,26 @@ class _MyHomePageState extends State<MyHomePage> {
       },
     );
   }
+
+  Widget mySlider() {
+    return Column(
+      children: [
+        Text(
+          "Slider actual value: $_sliderValue",
+          style: Theme.of(context).textTheme.headline5,
+        ),
+        Slider(
+            value: _sliderValue,
+            max: 100,
+            divisions: 5,
+            label: "Slider value: $_sliderValue",
+            onChanged: (double value) {
+              setState(() {
+                _sliderValue = value;
+              });
+            }),
+      ],
+    );
+  }
+  
 }
