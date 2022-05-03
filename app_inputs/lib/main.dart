@@ -52,29 +52,36 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
-            TextField(
-              keyboardType: TextInputType.text,
-              decoration: InputDecoration(
-                labelText: 'TextField: TextInputType.text: $_userInputs',
-                hintText: 'your input',
-              ),
-              onSubmitted: (userInput) {
-                _setUserInputs(userInput);
-              },
-            ),
-            TextField(
-              keyboardType: TextInputType.text,
-              style: Theme.of(context).textTheme.headline5,
-              decoration:
-                  InputDecoration(labelText: 'character counter: $_counter'),
-              //onSubmitted: (userInput){_stringCounter(userInput);},
-              onChanged: (userInput) {
-                _stringCounter(userInput);
-              },
-            ),
+            myTextFieldSubmit(),
+            myTextFieldCharacterCounter(),
           ],
         ),
       ),
+    );
+  }
+
+  TextField myTextFieldSubmit() {
+    return TextField(
+      keyboardType: TextInputType.text,
+      decoration: InputDecoration(
+        labelText: 'TextInputType.text: $_userInputs',
+        hintText: 'your input',
+      ),
+      onSubmitted: (userInput) {
+        _setUserInputs(userInput);
+      },
+    );
+  }
+
+  TextField myTextFieldCharacterCounter() {
+    return TextField(
+      keyboardType: TextInputType.text,
+      style: Theme.of(context).textTheme.headline5,
+      decoration: InputDecoration(labelText: 'character counter: $_counter'),
+      //onSubmitted: (userInput){_stringCounter(userInput);},
+      onChanged: (userInput) {
+        _stringCounter(userInput);
+      },
     );
   }
 }
