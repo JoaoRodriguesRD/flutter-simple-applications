@@ -29,6 +29,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   String _userInputs = "your first input";
+  bool _isChecked = true;
 
   void _stringCounter(String userInput) {
     setState(() {
@@ -54,13 +55,15 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             myTextFieldSubmit(),
             myTextFieldCharacterCounter(),
+            myTextFieldNumber(),
+            myCheckbox(),
           ],
         ),
       ),
     );
   }
 
-  TextField myTextFieldSubmit() {
+  Widget myTextFieldSubmit() {
     return TextField(
       keyboardType: TextInputType.text,
       decoration: InputDecoration(
@@ -73,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  TextField myTextFieldCharacterCounter() {
+  Widget myTextFieldCharacterCounter() {
     return TextField(
       keyboardType: TextInputType.text,
       style: Theme.of(context).textTheme.headline5,
@@ -84,4 +87,35 @@ class _MyHomePageState extends State<MyHomePage> {
       },
     );
   }
+
+  Widget myTextFieldNumber() {
+    return TextField(
+      keyboardType: TextInputType.number,
+      style: Theme.of(context).textTheme.headline5,
+      decoration: const InputDecoration(labelText: 'Number keyboard'),
+    );
+  }
+
+  Widget myCheckbox() {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Text(
+          "checkbox",
+          style: Theme.of(context).textTheme.headline5,
+        ),
+        Checkbox(
+          value: _isChecked,
+          activeColor: Colors.green,
+          onChanged: (bool? isChecked) {
+            setState(() {
+              _isChecked = !_isChecked;
+            });
+          },
+        ),
+      ],
+    );
+  }
+
+
 }
