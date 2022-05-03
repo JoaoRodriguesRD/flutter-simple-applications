@@ -30,6 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   String _userInputs = "your first input";
   bool _isChecked = true;
+  bool _isCheckedSwitch = true;
 
   void _stringCounter(String userInput) {
     setState(() {
@@ -57,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
             myTextFieldCharacterCounter(),
             myTextFieldNumber(),
             myCheckbox(),
+            mySwitchList(),
           ],
         ),
       ),
@@ -117,5 +119,18 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-
+  Widget mySwitchList() {
+    return SwitchListTile(
+      title: Text(
+        "SwitchListTile",
+        style: Theme.of(context).textTheme.headline5,
+      ),
+      value: _isCheckedSwitch,
+      onChanged: (bool? isChecked) {
+        setState(() {
+          _isCheckedSwitch = !_isCheckedSwitch;
+        });
+      },
+    );
+  }
 }
