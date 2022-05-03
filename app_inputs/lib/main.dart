@@ -32,7 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _isChecked = true;
   bool _isCheckedSwitch = true;
   double _sliderValue = 0;
-  
+  String _choices = "defaultChoice";
 
   void _stringCounter(String userInput) {
     setState(() {
@@ -49,9 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -62,6 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
             myCheckbox(),
             mySwitchList(),
             mySlider(),
+            myRadioButtons(),
           ],
         ),
       ),
@@ -157,5 +155,32 @@ class _MyHomePageState extends State<MyHomePage> {
       ],
     );
   }
-  
+
+  Widget myRadioButtons() {
+    return Column(
+      children: [
+        Text("radio choice: $_choices",
+        style: Theme.of(context).textTheme.headline6,
+        ),
+        RadioListTile(
+          title: const Text("choice one"),
+            value: "choice1",
+            groupValue: _choices,
+            onChanged: (String? choice) {
+              setState(() {
+                _choices = choice!;
+              });
+            }),
+        RadioListTile(
+          title: const Text("choice two"),
+            value: "choice2",
+            groupValue: _choices,
+            onChanged: (String? choice) {
+              setState(() {
+                _choices = choice!;
+              });
+            }),
+      ],
+    );
+  }
 }
