@@ -178,7 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
             groupValue: _choices,
             onChanged: (String? choice) {
               setState(() {
-                _choices = choice!;
+                _choices = choice!; 
               });
             }),
       ],
