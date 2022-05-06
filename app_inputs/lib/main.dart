@@ -34,6 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _isCheckedSwitch = true;
   double _sliderValue = 0;
   String _choices = "defaultChoice";
+  //imc = peso/(altura)ˆ2;
 
   void _stringCounter(String userInput) {
     setState(() {
