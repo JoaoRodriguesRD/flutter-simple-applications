@@ -32,6 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
   double _peso = 0;
   double _altura = 0;
   String _value = "calcule apertando no botao";
+  String _msg = "Ainda não sabemos seu imc...";
 
   void _incrementCounter() {
     setState(() {
@@ -85,30 +86,71 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 onPressed: () {
                   setState(() {
-                    double calculo = _peso / (_altura * _altura);
-                    _value = calculo.toStringAsFixed(2);
+                    double bmi = _peso / (_altura * _altura);
+                    _value = bmi.toStringAsFixed(2);
+                    //Próxima lógica da mensagem _msg:
+                    /** 
+                     *  18.5< adulto com baixo peso
+                     * 18,5 < = x < 25 adulto peso ideal
+                     * 25 <= x < 30 adulto sobrepeso
+                     * 30,0 < = x < 35 obs grau I
+                     * 35,0 < = x < 40 obs grau II
+                     *  40 <= x obs grau III
+                     * 
+                     */
+                    if (bmi < 18.5) {
+                      _msg = "adulto com baixo peso";
+                    }
+                    if (bmi >= 18.5 && bmi < 25) {
+                      _msg = "adulto com peso ideal";
+                    }
+                    if (bmi >= 25 && bmi < 30) {
+                      _msg = "adulto com sobrepeso";
+                    }
+                    if (bmi >= 30 && bmi < 35) {
+                      _msg = "adulto com obesidade grau I";
+                    }
+                    if (bmi >= 35 && bmi < 40) {
+                      _msg = "adulto com obesidade grau II";
+                    }
+                    if (bmi >= 40) {
+                      _msg = "adulto com obesidade grau III";
+                    }
                   });
                 },
                 child: const Text('Calcular IMC'),
               ),
+              const SizedBox(height: 10),
               Container(
+                color: Theme.of(context).backgroundColor,
+                padding: const EdgeInsets.all(23.0),
                 child: Column(
-                  children: <Widget>[Text("valor : $_value")],
-                ),
-              ),
-              Card(
-                child: Container(
-                  color: Theme.of(context).primaryColor,
-                  child: SizedBox(
-                    width: 300,
-                    height: 100,
-                    child: Text(
-                      "data",
-                      style: TextStyle(color: Theme.of(context).primaryColorLight),
+                  children: <Widget>[
+                    Text(
+                      _value,
+                      style: Theme.of(context).textTheme.headline6,
                     ),
-                  ),
+                    Text(
+                      _msg,
+                      style: Theme.of(context).textTheme.headline6,
+                    ),
+                  ],
                 ),
               ),
+              // Card(
+              //   child: Container(
+              //     color: Theme.of(context).primaryColor,
+              //     child: SizedBox(
+              //       width: 300,
+              //       height: 100,
+              //       child: Text(
+              //         "data",
+              //         style:
+              //             TextStyle(color: Theme.of(context).primaryColorLight),
+              //       ),
+              //     ),
+              //   ),
+              // ),
             ],
           ),
         ),
