@@ -6,31 +6,31 @@ Um gato pode olhar para um rei
 Uma corrente é tão forte quanto seu elo mais fraco
 O cachorro é o melhor amigo do homem.
 Um tolo e seu dinheiro logo se separam
-Um amigo na necessidade é um amigo de verdade)
+Um amigo na necessidade é um amigo de verdade
 Uma jornada de mil milhas começa com um único passo
 Um pouco de aprendizado é uma coisa perigosa
 Um leopardo não pode mudar suas manchas.
 Um moinho não pode moer com a água que passou.
 Uma falta é tão bom quanto uma milha
-Uma nova língua é uma nova vida. provérbio persa
+Uma nova língua é uma nova vida
 Um centavo economizado é um centavo ganho.
 Uma imagem vale mais que mil palavras
 Uma maré alta levanta todos os barcos
 Uma pedra que rola não junta musgo
-Um ponto no tempo salva nove)
+Um ponto no tempo salva nove
 Um homem observado nunca joga
 Uma panela/chaleira vigiada nunca ferve
 Ausência faz o coração aumentar mais a afeição
-O poder absoluto corrompe absolutamente. John Dalberg-Acton, 1887
+O poder absoluto corrompe absolutamente. (John Dalberg-Acton)
 Acidentes vão acontecer (nas famílias mais bem regulamentadas).
 Ações falam mais alto que palavras.
 A adversidade faz estranhos companheiros de cama
 Todas as coisas boas vêm para aquele que espera
 Todas as coisas boas devem chegar ao fim
-Todas as mãos no convés/para a bomba
+Todas as mãos no convés param a bomba
 Tudo é grão que vem ao moinho
-Todos os caminhos levam a Roma,
-Nem tudo que reluz/brilha é ouro,
+Todos os caminhos levam a Roma
+Nem tudo que brilha é ouro
 Todo o mundo ama um amante
 Todas as coisas vêm para aqueles que esperam
 Todas as coisas devem passar
@@ -45,9 +45,9 @@ Olho por olho deixa o mundo inteiro cego. Mahatma Gandhi (1869-1948), líder do 
 A casa de um inglês é seu castelo / A casa de um homem é seu castelo
 Outro dia outro dólar.
 Um grama de prevenção vale um quilo de cura
-Qualquer porto em uma tempestade
+Qualquer porto tem uma tempestade
 Qualquer publicidade é boa publicidade
-As chuvas de abril trazem flores de maio,
+As chuvas de abril trazem flores de maio
 Ao fazer sua cama, você deve deitar nela
 Você colhe aquilo que planta
 Faça uma pergunta boba e você terá uma resposta boba
@@ -55,25 +55,25 @@ Pergunte ao meu companheiro se eu sou um ladrão
 Não faça perguntas e não ouça mentiras
 O ataque é a melhor forma de defesa
 Notícia ruim chega rápido
-Cão que ladra não morde,
+Cão que ladra não morde
 A beleza está nos olhos de quem vê
 Beleza é apenas superficial
 Mendigos não podem escolher
 Atrás de todo grande homem, há uma grande mulher
 Antes tarde do que nunca
 Melhor prevenir do que remediar
-Melhor o diabo que você conhece (do que o diabo que você não conhece)
+Melhor o diabo que você conhece do que o "anjo" que você não conhece
 Melhor ter amado e perdido do que nunca ter amado
 Melhor acender uma vela do que amaldiçoar a escuridão
 Melhor ficar calado e ser considerado um tolo do que falar e tirar todas as dúvidas
-Melhor desgastar do que enferrujar.
-Cuidado com os gregos trazendo presentes. Guerra de Tróia, Virgílio na Eneida
+Melhor desgastar do que enferrujar
+Cuidado com os gregos trazendo presentes
 Peixes grandes comem peixes pequenos
 Birds of a feather (reunir juntos)
 O sangue é mais grosso que a água
 Nascido com uma colher de prata na boca
 Rapazes serão rapazes
-A brevidade é a alma da sagacidade (Shakespeare),
+A brevidade é a alma da sagacidade (Shakespeare)
 Negócios antes do prazer
 A esposa de César deve estar acima de qualquer suspeita
 Conversa descuidada custa vidas
@@ -81,10 +81,10 @@ A caridade começa em casa
 Fraudes nunca prosperam
 Queijo, vinho e amigos devem ser velhos para serem bons.
 As crianças devem ser vistas e não ouvidas
-O natal vem mas uma vez ao ano
+O natal vem, mas uma vez ao ano
 A limpeza está próxima da divindade
 Roupas fazem o homem
-Café e amor são mais gostosos quando quentes. provérbio etíope
+Café e amor são mais gostosos quando quentes
 Mãos frias coração quente
 Comparações são odiosas
 Conte suas bênçãos
@@ -131,7 +131,7 @@ Não lave sua roupa suja em público
 Não simpatize com aqueles que não podem simpatizar
 Faça aos outros o que gostaria que fizessem a você. Muitas vezes referida como a Regra de Ouro
 A dúvida é o começo, não o fim, da sabedoria
-Dormir cedo e acordar cedo torna o homem saudável, rico e sábio. Benjamin Franklin (1706-1790), polímata e fundador dos Estados Unidos
+Dormir cedo e acordar cedo torna o homem saudável, rico e sábio. (Benjamin Franklin)
 Mais fácil falar do que fazer
 Leste é leste, e oeste é oeste (e nunca os dois se encontrarão)
 Leste, oeste, lar é melhor,
@@ -144,7 +144,7 @@ Até um verme vai virar
 Mesmo de um inimigo um homem pode aprender sabedoria.
 Tudo tem um lado positivo
 Todo cachorro tem seu dia
-Todo Jack tem sua Jill
+Todo cachorro tem seu cheiro
 Cada pouco ajuda
 Cada um por si (e o Diabo fica por último)
 Todo homem tem seu preço
@@ -165,7 +165,7 @@ Familiaridade gera desdém
 Alimente um resfriado e passe fome com febre
 Combater o fogo com fogo
 Penas finas fazem pássaros finos
-Quem acha guarda, quem perde chora)
+Quem acha guarda, quem perde chora
 Palavras bonitas sem manteiga
 Primeiro a chegar, primeiro a ser servido
 As primeiras impressões são as mais duradouras
@@ -177,9 +177,9 @@ Tolos correm para lugares onde anjos temem pisar)
 Por falta de um prego, perdeu-se o sapato; por falta de uma ferradura o cavalo se perdeu; e por falta de um cavalo o homem se perdeu
 Prevenido é armado
 A fortuna favorece os ousados/corajosos
-Livre é para mim
+Ser livre é prioridade
 Cuidados irritantes fazem cabelos grisalhos
-Do sublime ao ridículo (é apenas um passo)
+Do sublime ao ridículo é apenas um passo
 O gênio é uma capacidade infinita de se esforçar
 Dê um nome ruim a um cachorro e pendure-o
 Dê um peixe a um homem e você o alimentará por um dia. Ensine um homem a pescar e você o alimentará por toda a vida
@@ -201,6 +201,7 @@ Aquele que vai tomar emprestado, vai se arrepender
 Quem pode, faz; quem não pode, ensina
 Ele, que hesita, está perdido
 Quem ri por último ri por mais tempo
+Quem ri por último ri melhor
 Quem vive pela espada, morre pela espada
 Aquele que ama o mundo como seu corpo pode ser confiado com o império. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)
 Quem faz de si mesmo uma fera se livra da dor de ser homem
@@ -208,9 +209,8 @@ Quem paga o flautista dá o tom
 Quem sabe não fala. Quem fala não sabe. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)
 Quem ceia com o diabo deve ter uma colher comprida
 O inferno não tem fúria como uma mulher desprezada
-Heav'n não tem Fúria, como Love to Hatred turn'd,
-Nem Inferno uma Fúria, como uma Mulher desprezada.
-William Congreve, The Mourning Bride, cena do Ato III viii
+Mulher não tem Fúria, como amor não tem paixão
+Nem Inferno é uma Fúria, como uma Mulher desprezada
 Retrospectiva é sempre vinte e vinte
 A história se repete
 Lar é onde o coração está
@@ -242,21 +242,23 @@ Se você acha que sabe tudo, então você é um idiota
 Se você se deitar com cachorros, vai se levantar com pulgas
 Se você paga com amendoins, você recebe macacos
 Se você brincar com fogo, você vai se queimar.
-Se você roubar de um autor, é plágio; se você rouba de muitos, é pesquisa. Wilson Mizner (1876-1933), escritor e empresário americano
+Se você roubar de um autor, é plágio; se você rouba de muitos, é pesquisa. (Wilson Mizner)
 Se você quer uma coisa bem feita, faça você mesmo
 Se você nunca viu a base da árvore, não pode saber a altura dela
 Se você deve dançar com o Diabo, deve conhecer sua música favorita. (H. António Ribadeneira)
-Se você tem isso, ostente-o
+Se você tem isso, cuide-o
+Não se cospe no prato que está comendo
 Ignorância é uma benção
 Imitação é a mais sincera forma de elogio
 Por um centavo, por uma libra
-(Março vem) como um leão, (e sai) como um cordeiro
+Carnaval vem como um leão, e sai como um cordeiro
+Político vem como um leão, e sai como um cordeiro
 No reino dos cegos, quem tem um olho é rei
 No meio da vida, estamos na morte
 Em cada vida um pouco de chuva deve cair
-Não acabou até/até que acabe
+Não acabou até que acabe
 Não acabou até a senhora gorda cantar
-É evidente
+É evidente o veneno de uma serpente
 Este é um mundo pequeno
 É tudo grão para o moinho
 É um vento ruim (que não sopra bem para ninguém)
@@ -273,7 +275,7 @@ Nunca é tarde demais
 Não adianta chorar sobre o leite derramado
 Não adianta trancar a porta do estábulo depois que o cavalo trancou
 Não basta aprender a andar, é preciso também aprender a cair.
-está ligado
+fique ligado mas nunca acesso
 É o madrugador que pega o verme
 É a lata vazia que faz mais barulho
 É a roda barulhenta que recebe a graxa
@@ -291,12 +293,13 @@ Jack of all trades, mestre de nenhum/um/alguns
 Não julgueis, para que não sejais julgados
 Mantenha seu queixo erguido
 Mantenha seus amigos por perto e seus inimigos mais perto ainda.
-Mantenha o pó seco. Valentine Blacker, 1834 de Oliver's Advice
+Mantenha o pó seco. (Valentine Blacker)
 Mate a galinha para assustar o macaco.
 Mate a galinha que põe o(s) ovo(s) de ouro.
-A bondade nas palavras cria confiança. A bondade em pensamento cria profundidade. Bondade em doar cria amor. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)
+A bondade nas palavras cria confiança. A bondade em pensamento cria profundidade. Bondade em doar cria amor. (Lao Tzu)
 Bater/tocar na madeira
-Saiba de que lado (o seu) pão é amanteigado (em)
+Saiba de que lado o seu pão é amanteigado
+Saiba de que lado o pão é amanteigado
 Conhecimento é poder, guarde-o bem.
 Rir antes do café da manhã, chorar antes do jantar.
 Ria e o mundo ri com você, chore e você chora sozinho
@@ -325,10 +328,11 @@ Pequenos golpes derrubam grandes carvalhos
 Pequenas coisas agradam pequenas mentes
 Viva e Deixe Viver
 Viva o hoje, pois o amanhã nunca chega
-Viva para lutar outro dia. Este ditado vem de uma rima proverbial inglesa, "Aquele que luta e foge, pode viver para lutar outro dia".
+Viva para lutar outro dia.
+Aquele que luta e foge, pode viver para lutar outro dia
 Lábios soltos afundam navios
 Olhe antes de pular
-O amor é cego. Os Dois Cavalheiros de Verona, Ato II, Cena 1 (1591)
+O amor é cego. (1591)
 O amor ao dinheiro é a raiz de todos os tipos de mal.
 O amor faz o mundo girar
 O amor encontrará um jeito
@@ -344,7 +348,7 @@ Março entra como um leão e sai como um cordeiro
 Casamentos são feitos no céu
 Casar com pressa, arrepender-se no lazer
 A memória é o tesouro da mente
-Os homens são cegos em sua própria causa. Heywood Broun (1888-1939), jornalista americano
+Os homens são cegos em sua própria causa. (Heywood Broun)
 Os homens são mimados por ficar, as mulheres são mimadas por vaguear
 A força está certa
 Pode fazer certo
@@ -382,7 +386,7 @@ Nove alfaiates fazem um homem,
 Sem coragem, sem glória
 Nenhum homem pode servir a dois mestres
 Nenhum homem é uma ilha
-Sem nomes, sem pack-drill
+Sem nome, sem patente
 Nenhuma notícia é boa notícia
 Ninguém pode fazer você se sentir inferior sem o seu consentimento
 Nada se consegue sem trabalho
@@ -390,7 +394,9 @@ Não há descanso para os ímpios
 Nada é certo, mas a morte e os impostos
 Nada tem sucesso como o sucesso,
 Quem não arrisca não petisca
-Uma vez a(n) _, sempre a(n) _
+Uma vez ladrão, sempre ladrão
+Uma vez corrupto, sempre corrupto
+Uma vez mentiroso, sempre mentiroso
 É tão bom jogar água no mar quanto fazer uma gentileza com os bandidos
 Uma palavra amável pode aquecer três meses de inverno
 Quem fala apenas uma língua é uma pessoa, mas quem fala duas línguas é duas pessoas. Provérbio Turco
@@ -418,8 +424,8 @@ Sobre o homem ganancioso, sobre a mulher irada nunca florescerá
 Semente de salsa vai nove vezes para o diabo
 Paciência é uma virtude
 Pérolas de sabedoria
-Penny sábio e libra tolo
-Penny, Penny. Faz muitos.
+Centavos sábios e libra tolo
+De grão em grão, a galinha enche o papo
 As pessoas que vivem em casas de vidro não devem atirar pedras
 Médico, cure-se
 A posse é nove décimos da lei
@@ -427,7 +433,8 @@ O poder corrompe; o poder absoluto corrompe absolutamente
 A prática leva à perfeição
 Pratique o que você prega
 Prevenção é melhor que a cura
-O orgulho vem/vai antes de uma queda (O.T.),
+O orgulho vem antes de uma queda
+O orgulho vai antes de uma queda
 A procrastinação é o ladrão do tempo
 Coloque o seu melhor no que faz
 Coloque seu dinheiro onde está sua boca
@@ -435,6 +442,7 @@ Céu vermelho à noite deleite dos pastores; céu vermelho pela manhã, aviso de
 Respeito não é dado, é conquistado.
 A vingança é um prato que se serve frio
 A vingança é doce
+A vingança nunca é plena, mata a alma e a envenena
 Roma não foi construída em um dia
 Certo ou errado, meu país
 As regras foram feitas para serem quebradas.
@@ -445,12 +453,14 @@ Procure e você encontrará
 Definir um ladrão para pegar um ladrão
 Brilhantes são as colinas distantes
 Sudários não têm bolsos
-(O discurso é de prata, mas) O silêncio é de ouro
+O discurso é de prata
+O discurso é de prata, mas o silêncio é de ouro
+O silêncio é de ouro
 Lento e constante ganha a corrida
 Lento, mas seguro
 Suavemente, suavemente, macaco pegador
 Alguns são mais iguais que outros
-Às vezes nós somos o aluno. Às vezes nós somos o mestre. E às vezes somos apenas a lição - Jacalyn Smith
+Às vezes nós somos o aluno. Às vezes nós somos o mestre. E às vezes somos apenas a lição. (Jacalyn Smith)
 Poupe a vara e estrague a criança
 Fale como você encontra
 Fala calmamente e faz-te acompanhar de uma vara grande
@@ -460,15 +470,15 @@ Malhar no ferro enquanto está quente
 Estúpido é como estúpido faz
 O sucesso tem muitos pais, enquanto o fracasso é órfão
 Fale do diabo e ele deve/está certo/aparecerá
-(A) enxame em maio vale uma carga de feno; um enxame em junho vale uma colher de prata; mas um enxame em julho não vale uma mosca
+Enxame em maio vale uma carga de feno; um enxame em junho vale uma colher de prata; mas um enxame em julho não vale uma mosca
 Cuide dos centavos, e as libras cuidarão de si mesmas
 Falar é fácil
 Fale do diabo, e ele é obrigado a aparecer
 Diga-me quem são seus amigos, e eu lhe direi quem você é
-Diga a verdade e envergonhe o Diabo (Shakespeare, Henry IV),
+Diga a verdade e envergonhe o Diabo (Shakespeare, Henry IV)
 O que não nos mata nos fortalece
 A era dos milagres já passou
-A maçã não cai/nunca cai longe da árvore
+A maçã nunca cai longe da árvore
 A melhor defesa é um bom ataque
 Os esquemas mais bem elaborados de ratos e homens muitas vezes dão errado
 As melhores coisas da vida são de graça
@@ -489,12 +499,12 @@ O inimigo do meu inimigo é meu amigo
 A exceção que confirma a regra
 A fêmea da espécie é mais mortal que o macho
 Os bons morrem cedo
-A grama é sempre mais verde (do outro lado) (da cerca)
+A grama do vizinho é sempre mais verde
 A mão que balança o berço governa o mundo
 O marido é sempre o último a saber
-Os inocentes raramente encontram um travesseiro desconfortável. William Cowper, poeta inglês (1731-1800)
+Os inocentes raramente encontram um travesseiro desconfortável. (William Cowper, 1731-1800)
 O trabalhador é digno de seu salário
-A lei é um burro. Do romance do escritor inglês Charles Dickens, Oliver Twist
+A lei é uma mula. (Charles Dickens, Oliver Twist)
 O leopardo não muda suas manchas
 A luz está acesa, mas ninguém está em casa
 O dia mais longo deve ter um fim
@@ -530,7 +540,8 @@ Não há contabilidade para os gostos
 Não há tolo como um velho tolo
 Não há lugar como o lar
 Não há vergonha em não saber; a vergonha está em não descobrir.
-Não há fumaça sem fogo / Onde há fumaça, há fogo
+Não há fumaça sem fogo
+Onde há fumaça, há fogo
 Não existe almoço grátis
 Não existe publicidade ruim
 Não há tempo como o presente
@@ -548,7 +559,7 @@ O tempo não perdoa ninguém
 O tempo voa
 O tempo é um grande curador
 Tempo é dinheiro
-(Só o tempo irá dizer
+(Só) o tempo irá dizer
 É melhor ter amado e perdido do que nunca ter amado
 Estar desgastado é ser renovado. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)
 Cada um na sua.
@@ -596,7 +607,7 @@ Onde há lama há latão
 Onde há vida há esperança.
 Se você pensa que pode, ou pensa que não pode, você está certo.
 Enquanto houver vida, haverá esperança
-Quem vai bell o gato?
+Quem vai pegar o touro pelo chifre?
 Quem os deuses amam morrer jovem
 Por que manter um cachorro e latir sozinho?
 Com grandes responsabilidades vem grandes poderes
@@ -621,7 +632,7 @@ Você não pode ganhar todos eles
 Você pega mais moscas com mel do que com vinagre
 Você paga seu dinheiro e faz sua escolha
 A juventude é desperdiçada nos jovens
-Você pode/pode ser enforcado/pendurado por uma ovelha como (por) um cordeiro
+Você poderá ser enforcado por uma ovelha ou como um cordeiro
 Você deve ter pedras em sua cabeça
 Você coça minhas costas e eu coço as suas
 Você tem que separar o trigo do joio
