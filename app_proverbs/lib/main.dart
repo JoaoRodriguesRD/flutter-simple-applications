@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "Deus ajuda quem se ajuda",
     "Aquele que ama o mundo como seu corpo pode ser confiado com o império. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)",
     "A história se repete",
-    "",
+    "Veja um centavo e pegue-o, o dia todo você terá boa sorte; ver um centavo e deixá-lo descansar, má sorte você terá o dia todo",
     "",
   ];
   List<String> backgroundUrls = [
