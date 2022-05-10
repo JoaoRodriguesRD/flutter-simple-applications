@@ -31,27 +31,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-  List<String> frases = [
-    "Dê um peixe a um homem e você o alimentará por um dia. Ensine um homem a pescar e você o alimentará por toda a vida",
-    "Deus ajuda quem se ajuda",
-    "Aquele que ama o mundo como seu corpo pode ser confiado com o império. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)",
-    "A história se repete",
-    "Veja um centavo e pegue-o, o dia todo você terá boa sorte; ver um centavo e deixá-lo descansar, má sorte você terá o dia todo",
-    "",
-  ];
   List<String> backgroundPath = [
     "rsc/wallpaper.png",
     "",
     "",
   ];
-  //reader with 5 proverbs
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
+  //reader with 5 proverbs
   _printMyText() async {
     Reader reader = Reader();
     List<String> myTexts = await reader.getRandomTexts(5);
@@ -65,43 +51,40 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage(backgroundPath[0]),
-              fit: BoxFit.fill,
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage(backgroundPath[0]),
+            fit: BoxFit.fill,
+          ),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            RichText(
+              text: TextSpan(
+                style: Theme.of(context).textTheme.titleMedium,
+                children: const [
+                  TextSpan(
+                    text: ' leia 5 provérbios e mude sua vida!',
+                    style: TextStyle(color: Colors.black54, fontSize: 19),
+                  ),
+                ],
+              ),
             ),
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              RichText(
-                text: TextSpan(
-                  style: Theme.of(context).textTheme.titleMedium,
-                  children: const [
-                    TextSpan(
-                      text: ' leia 5 provérbios e mude sua vida!',
-                      style: TextStyle(color: Colors.black54, fontSize: 19),
-                    ),
-                  ],
-                ),
-              ),
-              FutureBuilder(
-                future: _printMyText(),
-                builder: (BuildContext context, AsyncSnapshot snapshot) {
-                  if (!snapshot.hasData) {
-                    return const Text(
-                        "Não foi encontrado nenhum provérbio.. :/");
-                  } else if (snapshot.hasError) {
-                    return const Text("OPS... Error :(");
-                  } else {
-                    return myCard(snapshot.data);
-                  }
-                },
-              ),
-            ],
-          ),
+            FutureBuilder(
+              future: _printMyText(),
+              builder: (BuildContext context, AsyncSnapshot snapshot) {
+                if (!snapshot.hasData) {
+                  return const Text("Não foi encontrado nenhum provérbio.. :/");
+                } else if (snapshot.hasError) {
+                  return const Text("OPS... Error :(");
+                } else {
+                  return myCard(snapshot.data);
+                }
+              },
+            ),
+          ],
         ),
       ),
     );
