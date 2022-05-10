@@ -54,7 +54,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _printMyText() async{
     Reader reader = Reader();
-    reader.readText();
     List<String> myTexts = await reader.getRandomTexts(5);
     print(myTexts);
   }
