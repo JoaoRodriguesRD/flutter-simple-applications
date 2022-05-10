@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:app_proverbs/reader.dart';
 import 'package:flutter/material.dart';
 import 'package:tcard/tcard.dart';
@@ -55,36 +57,44 @@ class _MyHomePageState extends State<MyHomePage> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage(backgroundPath[0]),
-            fit: BoxFit.fill,
+            fit: BoxFit.cover,
           ),
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: <Widget>[
-            RichText(
-              text: TextSpan(
-                style: Theme.of(context).textTheme.titleMedium,
-                children: const [
-                  TextSpan(
-                    text: ' leia 5 provérbios e mude sua vida!',
-                    style: TextStyle(color: Colors.black54, fontSize: 19),
+        child: Padding(
+          // padding: EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width / 10),
+          padding: EdgeInsets.symmetric(
+              horizontal: MediaQuery.of(context).size.width / 10),
+          child: IntrinsicWidth(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: <Widget>[
+                RichText(
+                  text: TextSpan(
+                    style: Theme.of(context).textTheme.titleMedium,
+                    children: const [
+                      TextSpan(
+                        text: ' leia 5 provérbios e mude sua vida!',
+                        style: TextStyle(color: Colors.black54, fontSize: 19),
+                      ),
+                    ],
                   ),
-                ],
-              ),
+                ),
+                FutureBuilder(
+                  future: _printMyText(),
+                  builder: (BuildContext context, AsyncSnapshot snapshot) {
+                    if (!snapshot.hasData) {
+                      return const Text(
+                          "Não foi encontrado nenhum provérbio.. :/");
+                    } else if (snapshot.hasError) {
+                      return const Text("OPS... Error :(");
+                    } else {
+                      return myCard(snapshot.data);
+                    }
+                  },
+                ),
+              ],
             ),
-            FutureBuilder(
-              future: _printMyText(),
-              builder: (BuildContext context, AsyncSnapshot snapshot) {
-                if (!snapshot.hasData) {
-                  return const Text("Não foi encontrado nenhum provérbio.. :/");
-                } else if (snapshot.hasError) {
-                  return const Text("OPS... Error :(");
-                } else {
-                  return myCard(snapshot.data);
-                }
-              },
-            ),
-          ],
+          ),
         ),
       ),
     );
@@ -97,10 +107,13 @@ class _MyHomePageState extends State<MyHomePage> {
         data.length,
         (index) => Container(
           color: Theme.of(context).backgroundColor,
-          child: Center(
-            child: Text(
-              data[index],
-              style: Theme.of(context).textTheme.headline4,
+          child: Padding(
+            padding: const EdgeInsets.all(10),
+            child: Center(
+              child: Text(
+                data[index],
+                style: Theme.of(context).textTheme.headline4,
+              ),
             ),
           ),
         ),
