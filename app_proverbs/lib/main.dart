@@ -1,3 +1,4 @@
+import 'package:app_proverbs/reader.dart';
 import 'package:flutter/material.dart';
 import 'package:tcard/tcard.dart';
 
@@ -44,10 +45,18 @@ class _MyHomePageState extends State<MyHomePage> {
     "",
     "",
   ];
+  //reader with 5 proverbs
   void _incrementCounter() {
     setState(() {
       _counter++;
     });
+  }
+
+  void _printMyText() async{
+    Reader reader = Reader();
+    reader.readText();
+    List<String> myTexts = await reader.getRandomTexts(5);
+    print(myTexts);
   }
 
   @override
@@ -96,6 +105,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: _printMyText,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
       ),
     );
   }
