@@ -19,7 +19,7 @@ Uma maré alta levanta todos os barcos
 Uma pedra que rola não junta musgo
 Um ponto no tempo salva nove
 Um homem observado nunca joga
-Uma panela/chaleira vigiada nunca ferve
+Uma chaleira vigiada nunca ferve
 Ausência faz o coração aumentar mais a afeição
 O poder absoluto corrompe absolutamente.
 Acidentes vão acontecer (nas famílias mais bem regulamentadas).
@@ -42,7 +42,7 @@ Tudo está bem quando acaba bem
 Uma maçã por dia mantém o médico longe
 Um exército marcha de bruços. Napoleão Bonaparte (1769-1821), líder militar e imperador da França
 Olho por olho deixa o mundo inteiro cego. Mahatma Gandhi (1869-1948), líder do movimento de independência da Índia
-A casa de um inglês é seu castelo / A casa de um homem é seu castelo
+A casa de um homem é seu castelo
 Outro dia outro dólar.
 Um grama de prevenção vale um quilo de cura
 Qualquer porto tem uma tempestade
@@ -95,6 +95,7 @@ Atravesse o córrego onde é mais raso
 Corte seu casaco de acordo com a sua roupa
 A curiosidade matou o gato
 Faça o que eu digo, não o que eu faço
+Faça o que eu falo, não faça o que eu faço
 Faça como seria feito por
 Faça aos outros o que gostaria que fizessem a você
 Não morda a mão que te alimenta
@@ -118,8 +119,8 @@ Não coloque a carroça na frente dos bois
 Não coloque muitos ferros no fogo
 Não coloque vinho novo em garrafas velhas
 Não deixe para amanhã o que você pode fazer hoje
-Não balançar o barco
-Não feche/tranque a porta do estábulo após o cavalo ter trancado
+Não balançar o barco que você está
+Não tranque a porta do estábulo após o cavalo ter trancado
 Não gaste tudo em um só lugar
 Não estrague o navio por um ha'porth de alcatrão
 Não jogue pérolas aos porcos
@@ -173,10 +174,11 @@ Primeiras coisas primeiro
 Peixe sempre fede da cabeça para baixo
 Peixes e convidados cheiram depois de três dias
 A lisonja não te levará a lugar nenhum
-Tolos correm para lugares onde anjos temem pisar)
+Tolos correm para lugares onde anjos temem pisar
 Por falta de um prego, perdeu-se o sapato; por falta de uma ferradura o cavalo se perdeu; e por falta de um cavalo o homem se perdeu
 Prevenido é armado
-A fortuna favorece os ousados/corajosos
+A fortuna favorece os corajosos
+A fortuna favorece os ousados
 Ser livre é prioridade
 Cuidados irritantes fazem cabelos grisalhos
 Do sublime ao ridículo é apenas um passo
@@ -203,10 +205,10 @@ Ele, que hesita, está perdido
 Quem ri por último ri por mais tempo
 Quem ri por último ri melhor
 Quem vive pela espada, morre pela espada
-Aquele que ama o mundo como seu corpo pode ser confiado com o império. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)
+Aquele que ama o mundo como seu corpo pode ser confiado com o império. Lao Tzu,(604 aC - c. 531 aC)
 Quem faz de si mesmo uma fera se livra da dor de ser homem
 Quem paga o flautista dá o tom
-Quem sabe não fala. Quem fala não sabe. Lao Tzu, filósofo chinês (604 aC - c. 531 aC)
+Quem sabe não fala. Quem fala não sabe. Lao Tzu, (604 aC - c. 531 aC)
 Quem ceia com o diabo deve ter uma colher comprida
 O inferno não tem fúria como uma mulher desprezada
 Mulher não tem Fúria, como amor não tem paixão
@@ -261,7 +263,7 @@ Não acabou até a senhora gorda cantar
 É evidente o veneno de uma serpente
 Este é um mundo pequeno
 É tudo grão para o moinho
-É um vento ruim (que não sopra bem para ninguém)
+Um vento é ruim quando não sopra bem para ninguém
 É melhor estar do lado seguro
 É melhor ser mais esperto do que parece do que parecer mais esperto do que é.
 É melhor dar do que receber
@@ -276,6 +278,7 @@ Não adianta chorar sobre o leite derramado
 Não adianta trancar a porta do estábulo depois que o cavalo trancou
 Não basta aprender a andar, é preciso também aprender a cair.
 fique ligado mas nunca acesso
+Escute os mais velhos
 É o madrugador que pega o verme
 É a lata vazia que faz mais barulho
 É a roda barulhenta que recebe a graxa
@@ -288,8 +291,8 @@ Nunca chove mas transborda
 São precisos dois para dançar o tango
 Eu vou ter que te dar o deslizamento rosa
 Ele vai voltar e assombrá-lo
-Será o mesmo daqui a cem anos.
-Jack of all trades, mestre de nenhum/um/alguns
+Deus será o mesmo daqui a cem anos
+O homem não será o mesmo daqui a cem anos
 Não julgueis, para que não sejais julgados
 Mantenha seu queixo erguido
 Mantenha seus amigos por perto e seus inimigos mais perto ainda.
@@ -297,7 +300,7 @@ Mantenha o pó seco. (Valentine Blacker)
 Mate a galinha para assustar o macaco.
 Mate a galinha que põe o(s) ovo(s) de ouro.
 A bondade nas palavras cria confiança. A bondade em pensamento cria profundidade. Bondade em doar cria amor. (Lao Tzu)
-Bater/tocar na madeira
+Bater na madeira ao falar de ferro
 Saiba de que lado o seu pão é amanteigado
 Saiba de que lado o pão é amanteigado
 Conhecimento é poder, guarde-o bem.
@@ -340,6 +343,7 @@ Aproveitar o maximo
 Faça amor não faça guerra
 O homem não vive só de pão
 Boas maneiras fazem o homem
+Mente vazia, oficina do diabo
 Muitos um pouco faz um mickle
 Muitos mickles fazem muckles
 Muitas palavras verdadeiras são ditas em tom de brincadeira
@@ -382,6 +386,7 @@ Nunca diga nunca
 Nunca diga morra
 Nunca conte histórias fora da escola
 Nunca é tarde para aprender.
+Nunca cuspa no prato que come
 Nove alfaiates fazem um homem,
 Sem coragem, sem glória
 Nenhum homem pode servir a dois mestres
@@ -469,7 +474,7 @@ Ainda correm águas profundas
 Malhar no ferro enquanto está quente
 Estúpido é como estúpido faz
 O sucesso tem muitos pais, enquanto o fracasso é órfão
-Fale do diabo e ele deve/está certo/aparecerá
+Fale do diabo e ele aparecerá
 Enxame em maio vale uma carga de feno; um enxame em junho vale uma colher de prata; mas um enxame em julho não vale uma mosca
 Cuide dos centavos, e as libras cuidarão de si mesmas
 Falar é fácil
@@ -522,6 +527,8 @@ O filho do sapateiro anda sempre descalço
 A roda estridente recebe a graxa
 As ruas são pavimentadas com ouro
 A palha que quebrou as costas do camelo
+Fale bem de seus amigos, fale melhor ainda de seus inimigos
+O homem que defende um tolo, desdém do sábio
 O caminho para o coração de um homem é através de seu estômago
 A obra elogia o homem.
 O verme vai virar
@@ -619,7 +626,7 @@ Você nunca é velho demais para aprender
 Você é o que você come
 Você pode ter muito de uma coisa boa
 Você pode levar um cavalo até a água, mas não pode fazê-lo beber
-Você nunca pode / nunca pode dizer
+Nunca diga nunca
 Você nem sempre consegue o que quer
 Você não pode comer seu bolo e tê-lo também
 Você não pode tirar sangue de uma pedra
@@ -627,7 +634,7 @@ Você não pode fazer uma bolsa de seda da orelha de uma porca
 Você não pode fazer uma omelete sem quebrar os ovos
 Você não pode fazer tijolos sem palha
 Você não pode correr com a lebre e caçar com os cães
-(Você não pode) ensinar novos truques a um cachorro velho
+Você não pode ensinar novos truques a um cachorro velho
 Você não pode ganhar todos eles
 Você pega mais moscas com mel do que com vinagre
 Você paga seu dinheiro e faz sua escolha
@@ -635,6 +642,6 @@ A juventude é desperdiçada nos jovens
 Você poderá ser enforcado por uma ovelha ou como um cordeiro
 Você deve ter pedras em sua cabeça
 Você coça minhas costas e eu coço as suas
-Você tem que separar o trigo do joio
+Você tem que separar o joio do trigo
 Você fez sua cama e deve deitar nela
 Zelo sem conhecimento é fogo sem luz.
