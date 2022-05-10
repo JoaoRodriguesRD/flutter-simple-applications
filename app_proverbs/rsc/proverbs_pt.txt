@@ -21,7 +21,7 @@ Um ponto no tempo salva nove
 Um homem observado nunca joga
 Uma panela/chaleira vigiada nunca ferve
 Ausência faz o coração aumentar mais a afeição
-O poder absoluto corrompe absolutamente. (John Dalberg-Acton)
+O poder absoluto corrompe absolutamente.
 Acidentes vão acontecer (nas famílias mais bem regulamentadas).
 Ações falam mais alto que palavras.
 A adversidade faz estranhos companheiros de cama
@@ -318,8 +318,8 @@ Que a punição se encaixe no crime
 Deixe bem sozinho
 Relaxa.
 A vida começa aos quarenta
-A vida é muito curta para não fazer algo que importa.
-A vida não é só cerveja e skittles
+A vida é muito curta para não fazer algo que importa
+Aquele que não agradece as pequenas coisas não agradece o bastante
 A vida é o que você faz dela
 Um raio nunca cai duas vezes no mesmo lugar
 Tal pai tal filho
@@ -638,4 +638,3 @@ Você coça minhas costas e eu coço as suas
 Você tem que separar o trigo do joio
 Você fez sua cama e deve deitar nela
 Zelo sem conhecimento é fogo sem luz.
-
