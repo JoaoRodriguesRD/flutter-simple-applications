@@ -40,8 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
     "Veja um centavo e pegue-o, o dia todo você terá boa sorte; ver um centavo e deixá-lo descansar, má sorte você terá o dia todo",
     "",
   ];
-  List<String> backgroundUrls = [
-    "https://i0.wp.com/www.luamaralstudio.com/wp-content/uploads/2022/02/aesthetic-yellow-phone-wallpaper-lu-amaral-studio-5-1-scaled.jpg?resize=980%2C1742&ssl=1",
+  List<String> backgroundPath = [
+    "rsc/wallpaper.png",
     "",
     "",
   ];
@@ -52,10 +52,11 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _printMyText() async{
+  _printMyText() async {
     Reader reader = Reader();
     List<String> myTexts = await reader.getRandomTexts(5);
-    print(myTexts);
+    // print(myTexts);
+    return myTexts;
   }
 
   @override
@@ -68,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: NetworkImage(backgroundUrls[0]),
+              image: AssetImage(backgroundPath[0]),
               fit: BoxFit.fill,
             ),
           ),
@@ -86,29 +87,40 @@ class _MyHomePageState extends State<MyHomePage> {
                   ],
                 ),
               ),
-              TCard(
-                lockYAxis: true,
-                cards: List.generate(
-                  5,
-                  (index) => Container(
-                    color: Theme.of(context).backgroundColor,
-                    child: Center(
-                      child: Text(
-                        frases[index],
-                        style: Theme.of(context).textTheme.headline4,
-                      ),
-                    ),
-                  ),
-                ),
+              FutureBuilder(
+                future: _printMyText(),
+                builder: (BuildContext context, AsyncSnapshot snapshot) {
+                  if (!snapshot.hasData) {
+                    return const Text(
+                        "Não foi encontrado nenhum provérbio.. :/");
+                  } else if (snapshot.hasError) {
+                    return const Text("OPS... Error :(");
+                  } else {
+                    return myCard(snapshot.data);
+                  }
+                },
               ),
             ],
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _printMyText,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
+    );
+  }
+
+  Widget myCard(List<String> data) {
+    return TCard(
+      lockYAxis: true,
+      cards: List.generate(
+        data.length,
+        (index) => Container(
+          color: Theme.of(context).backgroundColor,
+          child: Center(
+            child: Text(
+              data[index],
+              style: Theme.of(context).textTheme.headline4,
+            ),
+          ),
+        ),
       ),
     );
   }
