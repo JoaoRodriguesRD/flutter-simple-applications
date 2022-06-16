@@ -123,3 +123,11 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+#in simple apps repository, i only want to modify in shared code 
+*.gitignore
+**/.metadata
+**/android/*
+**/ios/*
+**/web/*
+**/windows/*
