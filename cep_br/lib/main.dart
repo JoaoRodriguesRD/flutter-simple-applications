@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:cep_br/pages/CepInput.dart';
+import 'package:cep_br/pages/Result.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: CepInput(),
+      // initialRoute: '/',
+      // routes: {
+      //   '/' : (context) => CepInput(),
+      //   '/resultado' : (context) => Result(),
+      // },
+      
+    
     );
   }
 }
